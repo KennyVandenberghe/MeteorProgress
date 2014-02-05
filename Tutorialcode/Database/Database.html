@@ -1,0 +1,51 @@
+<head>
+    <title>Database</title>
+</head>
+
+<body>
+    <div class="navbar navbar-static-top">
+        <div class="navbar-inner">
+            <ul class="nav">
+                <li><a href="/home">Home</a>
+                </li>
+                <li><a href="/add">Add</a>
+                </li>
+                <li><a href="/list">List</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    {{renderPage}}
+
+</body>
+
+<template name="home">
+    <div class="homeMargin">
+        <div class="hero-unit">
+            <h1>Database</h1>
+            <p>Homepage</p>
+        </div>
+    </div>
+</template>
+
+<template name="add_item">
+    <div class="homeMargin">
+        <h2>Add something into your database</h2>
+        <input type="text" class="the_item">
+        <button class="btn btn-success submit">Submit</button>
+    </div>
+</template>
+
+<template name="list_items">
+    <div class="homeMargin">
+        <table class="table table-striped">
+
+            {{#each all_items}}
+            <tr>
+                <td>{{item}}
+                </td>
+            </tr>
+            {{/each}}
+        </table>
+    </div>
+</template>
