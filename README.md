@@ -3,6 +3,15 @@ MeteorProgress
 
 My progress log for learning Meteor
 
+##2014-02-11
+* Verder gelezen en gebouwd tot aan pagina 114.
+	* Post submit vanaf de client.
+	* Toegang tot een formulier beperken
+	* Methodes gebruiken vanaf de server
+	* updaten en deleten van posts en hier beperkingen aan toekennen
+	
+
+
 ##2014-02-10
 * Het boek van Meteor tot pagina 64 gelezen en de example app tot daar al meegebouwd. 
 	* Herhaling gehad ivm templating, handlebars, realtime collections en routing.
