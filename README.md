@@ -3,12 +3,22 @@ MeteorProgress
 
 My progress log for learning Meteor
 
+##2014-02-12
+
+* gelezen tot aan pagina 135.
+	* Het tonen van comments.
+	* Toevoegen van comment posting form.
+	* Enkel de current post's comments laden.
+	* Toevoegen van een comment count property aan de posts.
+	
+Het ben iets minder ver geraakt dan verwacht. Maar ik kwam verschillende problemen tegen (comments die niet optellen en notificaties die niet verschijnen) die nog steeds niet in orde zijn. Ik heb de code meerdere malen opnieuw bekeken, maar ik zie het gewoon niet. Waarschijnlijk ergens een klein typfoutje gemaakt waar ik telkens weer over zie.
+
 ##2014-02-11
 * Verder gelezen en gebouwd tot aan pagina 114.
 	* Post submit vanaf de client.
-	* Toegang tot een formulier beperken
-	* Methodes gebruiken vanaf de server
-	* updaten en deleten van posts en hier beperkingen aan toekennen
+	* Toegang tot een formulier beperken.
+	* Methodes gebruiken vanaf de server.
+	* updaten en deleten van posts en hier beperkingen aan toekennen.
 	
 
 
