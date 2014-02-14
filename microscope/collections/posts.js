@@ -29,7 +29,9 @@ Meteor.methods({
 
         // check that there are no previous posts with the same link
         if (postAttributes.url && postWithSameLink) {
-            throw new Meteor.Error(302, 'This link has already been posted', postWithSameLink._id);
+            throw new Meteor.Error(302,
+                'This link has already been posted',
+                postWithSameLink._id);
         }
 
         // pick out the whitelisted keys
@@ -37,11 +39,34 @@ Meteor.methods({
             userId: user._id,
             author: user.username,
             submitted: new Date().getTime(),
-            commentsCount: 0
+            commentsCount: 0,
+            upvoters: [],
+            votes: 0
         });
 
         var postId = Posts.insert(post);
 
-        return postId
+        return postId;
+    },
+
+    upvote: function(postId) {
+        var user = Meteor.user();
+        // ensure the user is logged in
+        if (!user)
+            throw new Meteor.Error(401, "You need to login to upvote");
+
+        Posts.update({
+            _id: postId,
+            upvoters: {
+                $ne: user._id
+            }
+        }, {
+            $addToSet: {
+                upvoters: user._id
+            },
+            $inc: {
+                votes: 1
+            }
+        });
     }
 });

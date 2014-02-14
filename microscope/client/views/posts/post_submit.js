@@ -8,7 +8,6 @@ Template.postSubmit.events({
             message: $(event.target).find('[name=message]').val()
         }
 
-
         Meteor.call('post', post, function(error, id) {
             if (error) {
                 // display the error to the user

@@ -5,7 +5,6 @@ Template.notifications.helpers({
             read: false
         });
     },
-
     notificationCount: function() {
         return Notifications.find({
             userId: Meteor.userId(),

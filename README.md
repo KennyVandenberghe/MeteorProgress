@@ -3,6 +3,20 @@ MeteorProgress
 
 My progress log for learning Meteor
 
+##2014-02-13
+
+* Het boek volledig uitgelezen
+	* Pagination
+	* Voting system
+	* Ranking
+	* Animation
+	
+Ik heb het boek iets sneller uitgelezen dan verwacht. Ik vond de laatste hoofdstukken de interessantste maar hier heb ik ook wel de meeste problemen gehad. De notificaties verschenen niet, het sorteren werkte niet (dus de ranking ook niet) en de animations deden het ook eerst niet. 
+
+Ik heb al de fouten uiteindelijk gevonden, het ging altijd over een typfoutje (hoofdlettergevoeligheid of simpelweg een letter vergeten). Maar alles werkt nu prima. 
+
+Het was een zeer interessant boek om te lezen, het ging vlot en alles werd gedetailleerd uitgelegd. Ik lees het boek binnenkort sowieso nog eens.
+
 ##2014-02-12
 
 * gelezen tot aan pagina 135.
@@ -10,6 +24,7 @@ My progress log for learning Meteor
 	* Toevoegen van comment posting form.
 	* Enkel de current post's comments laden.
 	* Toevoegen van een comment count property aan de posts.
+	* Notifications toevoegen.
 	
 Het ben iets minder ver geraakt dan verwacht. Maar ik kwam verschillende problemen tegen (comments die niet optellen en notificaties die niet verschijnen) die nog steeds niet in orde zijn. Ik heb de code meerdere malen opnieuw bekeken, maar ik zie het gewoon niet. Waarschijnlijk ergens een klein typfoutje gemaakt waar ik telkens weer over zie.
 

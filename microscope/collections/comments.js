@@ -26,7 +26,6 @@ Meteor.methods({
                 commentsCount: 1
             }
         });
-        return Comments.insert(comment);
 
         // create the comment, save the id
         comment._id = Comments.insert(comment);
