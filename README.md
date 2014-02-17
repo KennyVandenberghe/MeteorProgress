@@ -3,6 +3,19 @@ MeteorProgress
 
 My progress log for learning Meteor
 
+##2014-02-17
+* Codecademy verder gezet tot en met tutorial 12 (er zijn er 16).
+	* Leren gebruiken van random getallen en afrondingen.
+	* Switch en cases.
+	* Het gebruiken van objecten binnen arrays
+	* Met behulp van arrays en objecten een "contact list" gebouwd.
+	
+Het was al even geleden dat ik heb kunnen doorwerken maar ik heb de afgelopen dagen geen kans gekregen, zelf op school niet. Maar normaal gezien kan ik nu weer doorwerken zoals daarvoor dus ik ga er terug voor gaan! 
+
+Ik van zin mij nu even wat meer te verdiepen in Javascript zelf. Ik heb de verschillende [resources](http://yauh.de/articles/376/best-learning-resources-for-meteorjs) bekeken en volgens mij is het het beste dat ik, na Codecademy, met het boek "Eloquent Javascript" begin, het staat al klaar dus hoogstwaarschijnlijk begin ik er morgen al in!
+
+Ik heb ook alvast wat andere resources bekeken en de volgende stap is blijkbaar een [cursus](http://javascriptissexy.com/how-to-learn-javascript-properly/) volgen die, volgens de cursus zelf, 6 tot 8 weken duurt. Hier worden zelfs twee boeken gebruikt die beide gemiddeld 1000 pagina's tellen (ook deze boeken heb ik ondertussen al klaarstaan). Ik wil deze boeken wel lezen maar volgens mij ga ik dan in tijdnood komen. Ik heb in ieder geval nog steeds genoeg om te doen! 
+
 ##2014-02-13
 
 * Het boek volledig uitgelezen
