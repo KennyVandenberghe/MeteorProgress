@@ -3,6 +3,27 @@ MeteorProgress
 
 My progress log for learning Meteor
 
+##2014-02-19
+* Codecademy afgewerkt (de laatste sessie bestonden uit heel veel stappen).
+	* Objecten
+	* Methodes
+	* Constructors
+	* Objecten combineren met arrays, functies en methodes
+	* Prototypes
+	* Klasses
+	
+* Example van Meteor bekeken [todos](https://github.com/meteor/meteor/tree/devel/examples/todos)
+
+* [Tutorial](https://www.youtube.com/watch?v=xTlX8sf-RJE) gevolgd op youtube en een "blog" nagebouwd.
+
+Codecademy heeft zeker wel wat geholpen, maar dat blijft uiteraard nog altijd een beetje "basic". 
+
+De example van Meteor, ik heb mijn best gedaan deze te begrijpen maar ik vind het persoonlijk moeilijk zo'n code te ontcijferen. Code van anderen blijven nog altijd complexer om te begrijpen dan dat je ze zelf getypt hebt. 
+
+De tutorial was ook wel basic, maar ik ben blij dat ik nog eens wat Meteor zelf gedaan heb, het ging al iets vlotter (ik begreep al meer wat er allemaal gedaan werd) en ik vond het nog eens leuk om met Meteor te werken.
+
+
+
 ##2014-02-17
 * Codecademy verder gezet tot en met tutorial 12 (er zijn er 16).
 	* Leren gebruiken van random getallen en afrondingen.

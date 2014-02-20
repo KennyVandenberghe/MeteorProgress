@@ -1,0 +1,16 @@
+.text-title {
+    width:80%;
+    margin-bottom: 20px !important;
+    padding-left:0;
+}
+.text-body {
+    width:80%;
+}
+.title-label {
+    text-align: left !important;
+    width: 50px !important;
+}
+.body-label {
+    text-align: left !important;
+    width: 50px !important;
+}
