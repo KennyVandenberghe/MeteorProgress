@@ -1,0 +1,29 @@
+<head>
+    <title>Example service</title>
+</head>
+
+<body>
+    {{> menu}} {{renderPage}}
+</body>
+
+<template name="menu">
+    <div class="menu">
+        <strong>Example Service</strong>
+        <a href="/">Home</a>
+        <a href="/example">Example page</a>
+    </div>
+</template>
+
+<template name="welcome">
+    <p>This is the start page</p>
+</template>
+
+<template name="my-example">
+    <h1>My example</h1>
+    <p>This is an example page</p>
+</template>
+
+<template name="404">
+    <h1>Oops, page not found</h1>
+    <p>The page you were looking for has gone missing!</p>
+</template>

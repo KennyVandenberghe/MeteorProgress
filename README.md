@@ -3,6 +3,19 @@ MeteorProgress
 
 My progress log for learning Meteor
 
+##2014-02-20
+* De concepten gelezen in de [documentatie](http://docs.meteor.com/) van Meteor.
+* Een [handlebars](https://github.com/meteor/meteor/wiki/Handlebars) document gelezen op github.
+* Een aantal [tutorials](http://sebastiandahlgren.se/categories/meteorjs/) gevolgd, namelijk:
+	* [Tutorial: Writing your first Meteor application](http://sebastiandahlgren.se/2013/07/17/tutorial-writing-your-first-metor-application/)
+		* [chatapp](https://github.com/KennyVandenberghe/MeteorProgress/tree/master/chatapp) (na)gebouwd
+	* [Add routing to MeteorJS](http://sebastiandahlgren.se/2013/07/20/add-routing-to-meteor-js/)
+		* [routingtut](https://github.com/KennyVandenberghe/MeteorProgress/tree/master/routingtut) (na)gebouwd
+	* [Bootstrap3 with accounts support in MeteorJS](http://sebastiandahlgren.se/2013/12/30/bootstrap3-with-accounts-support-in-meteorjs/)
+		* [boostraptut](https://github.com/KennyVandenberghe/MeteorProgress/tree/master/bootstraptut) (na)gebouwd.
+		
+De tutorials zijn eigenlijk weer heel goed voor beginners, heel simpel uitgelegd en stap voor stap te volgen. Ik heb ook nog andere tutorials gevonden, bv [Day 15: Meteor--Building a Web App From Scratch in Meteor](https://www.openshift.com/blogs/day-15-meteor-building-a-web-app-from-scratch-in-meteor), welke ik morgen ga bestuderen. Deze persoon leert op 30 dagen tijd, 30 nieuwe technologieën, zeer gewaagd maar toch wel interessant. Het is van deze persoon waar ik blijkbaar al een paar youtube tutorials heb gevolgd. Als hij op 1 dag Meteor kan leren moet ik dat, met de tijd die ik gekregen heb, ook zeker kunnen!
+
 ##2014-02-19
 * Codecademy afgewerkt (de laatste sessies bestonden uit heel veel stappen).
 	* Objecten

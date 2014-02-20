@@ -1,0 +1,36 @@
+<head>
+    <title>Bootstrap3 test</title>
+</head>
+
+<body>
+    {{> menu}} {{> welcome}}
+</body>
+
+<template name="welcome">
+    <div class="container">
+        <h1>Welcome</h1>
+        <p>This is a test application for Bootstrap3 in MeteorJS.</p>
+    </div>
+</template>
+
+<template name="menu">
+    <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">Bootstrap3 test</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="#">Link</a>
+                </li>
+                <li><a href="#">Link</a>
+                </li>
+                <li><a href="#">Link</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                {{loginButtons}}
+            </ul>
+        </div>
+    </div>
+</template>
