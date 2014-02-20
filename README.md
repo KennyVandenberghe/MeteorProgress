@@ -4,7 +4,7 @@ MeteorProgress
 My progress log for learning Meteor
 
 ##2014-02-19
-* Codecademy afgewerkt (de laatste sessie bestonden uit heel veel stappen).
+* Codecademy afgewerkt (de laatste sessies bestonden uit heel veel stappen).
 	* Objecten
 	* Methodes
 	* Constructors
@@ -14,7 +14,7 @@ My progress log for learning Meteor
 	
 * Example van Meteor bekeken [todos](https://github.com/meteor/meteor/tree/devel/examples/todos)
 
-* [Tutorial](https://www.youtube.com/watch?v=xTlX8sf-RJE) gevolgd op youtube en een "blog" nagebouwd.
+* [Tutorial](https://www.youtube.com/watch?v=xTlX8sf-RJE) gevolgd op youtube en een ["blog"](https://github.com/KennyVandenberghe/MeteorProgress/tree/master/blog) nagebouwd.
 
 Codecademy heeft zeker wel wat geholpen, maar dat blijft uiteraard nog altijd een beetje "basic". 
 
