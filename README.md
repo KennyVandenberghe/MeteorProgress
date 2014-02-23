@@ -3,6 +3,24 @@ MeteorProgress
 
 My progress log for learning Meteor
 
+##2014-02-23
+* [Tutorial](http://www.danneu.com/posts/6-meteor-tutorial-for-fellow-noobs-adding-features-to-the-leaderboard-demo/) gevolgd die verderbouwt op een Meteor example, namelijk [leaderboards](https://github.com/KennyVandenberghe/MeteorProgress/tree/master/leaderboard).
+	* Add players functie toegevoegd
+	* Delete players functie toegevoegd
+	* Errors toegevoegd (geen of dezelfde naam ingevoegd)
+	
+* Nog een [tutorial](https://www.openshift.com/blogs/day-15-meteor-building-a-web-app-from-scratch-in-meteor) gevolgd (die ik vernoemd heb in de vorige status update). De persoon die deze tutorial heeft geschreven noemt zijn tutorial "The missing Meteor tutorial" en het is inderdaad een uitgebreide, makkelijk te volgen tutorial. 
+
+Hij heeft alles heel gedetailleerd bekeken, een aantal voorbeelden:
+	* Wat is Meteor?
+	* Wat is MongoDB?
+	* Wat is MiniMongo?
+	* Meteor Smart Packages
+	* Insecure Packages
+	* enz.
+	
+Met zijn tutorial al hulpmiddel, heb ik een [epoll application](https://github.com/KennyVandenberghe/MeteorProgress/tree/master/epoll) gemaakt, waar gebruikers vragen kunnen posten en hierop kunnen voten. Je kan enkel aanpassingen doen als je hebt aangemeld via Twitter. 
+
 ##2014-02-20
 * De concepten gelezen in de [documentatie](http://docs.meteor.com/) van Meteor.
 * Een [handlebars](https://github.com/meteor/meteor/wiki/Handlebars) document gelezen op github.
