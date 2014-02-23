@@ -10,7 +10,6 @@ My progress log for learning Meteor
 	* Errors toegevoegd (geen of dezelfde naam ingevoegd)
 	
 * Nog een [tutorial](https://www.openshift.com/blogs/day-15-meteor-building-a-web-app-from-scratch-in-meteor) gevolgd (die ik vernoemd heb in de vorige status update). De persoon die deze tutorial heeft geschreven noemt zijn tutorial "The missing Meteor tutorial" en het is inderdaad een uitgebreide, makkelijk te volgen tutorial. 
-
 Hij heeft alles heel gedetailleerd bekeken, een aantal voorbeelden:
 	* Wat is Meteor?
 	* Wat is MongoDB?
