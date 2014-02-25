@@ -3,6 +3,21 @@ MeteorProgress
 
 My progress log for learning Meteor
 
+##2014-02-24
+
+Aan een tweede boek begonnen over Meteor, "Getting started with meteor.js javascript framework". Hier ben ik bezig een [Lending Library](https://github.com/KennyVandenberghe/MeteorProgress/tree/master/LendLib) applicatie te maken.
+
+Ik heb tot hiertoe in het boek nog niet heel veel nieuwe dingen gezien, maar de hoofdzakelijkste waren momenteel: 
+
+* MVC (Model-View-Controller)
+* MVVM (Model View ViewModel)
+* Templating
+* Handlebars
+
+In het begin van het boek was het hoofdzakelijk herhaling: hoe installeer je Meteor? Hoe open je een example? Hoe maak je je eigen applicatie aan? enz.	
+Ook wel een goed boek om eerlijk te zijn, elk lijntje code wordt apart bekeken en uitgelegd wat er juist gebeurd of zal gebeuren, het leest vlot en ik zit momenteel aan pagina 58. Tegen woensdag heb ik het hoogstwaarschijnlijk wel uitgelezen (Als ik de volgende hoofdstukken niet onderschat uiteraard.) 
+
+
 ##2014-02-23
 * [Tutorial](http://www.danneu.com/posts/6-meteor-tutorial-for-fellow-noobs-adding-features-to-the-leaderboard-demo/) gevolgd die verderbouwt op een Meteor example, namelijk [leaderboards](https://github.com/KennyVandenberghe/MeteorProgress/tree/master/leaderboard).
 	* Add players functie toegevoegd
