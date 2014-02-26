@@ -3,6 +3,23 @@ MeteorProgress
 
 My progress log for learning Meteor
 
+##2014-02-26
+Verder gelezen en gebouwd tot aan pagina 116 van het boek. Ik had normaal klaar geweest met lezen maar ik krijg de applicatie niet werkende zoals het zou moeten. Voor één of andere reden kunnen users niets toevoegen of zien in de [Library](https://github.com/KennyVandenberghe/MeteorProgress/tree/master/LendLib). Ik heb de code meerdere malen overlopen maar de code is identiek hetzelfde. Ik heb ook allerlei dingen opgezocht en veel mensen hebben dezelfde problemen, het blijkt dat er vanalles veranderd is. Het boek is ook geschreven op de 0.5 versie van Meteor en ondertussen is Meteor al in versie 0.7.1.1 dus dat scheelt al heel wat. Dus volgens mij moeten er gewoon heel wat code aangepast worden en dat ga ik proberen morgen op te lossen. 
+
+Wat heb ik zoal gezien in de afgelopen hoofdstukken:
+
+* Het aanmaken van meerdere templates en template logica
+* Adding, deleting en updating 
+* Broadcasting changes
+* Configuring publishers
+* Collections aanspreken met de browser console
+* Client, server en public files
+* Multiple users
+* Wat de "insecure" package is en waarom deze verwijderd wordt (hier begonnen de problemen met de users)
+
+Het volgende stuk gaat over het deployen van de applicatie, maar ik wou hier niet aan beginnen omdat de applicatie dus nog niet werkt. Ik wil het eerste werkende krijgen!
+
+
 ##2014-02-24
 
 Aan een tweede boek begonnen over Meteor, "Getting started with meteor.js javascript framework". Hier ben ik bezig een [Lending Library](https://github.com/KennyVandenberghe/MeteorProgress/tree/master/LendLib) applicatie te maken.

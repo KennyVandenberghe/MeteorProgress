@@ -1,63 +1,24 @@
 Lists = new Meteor.Collection("lists");
-if (Meteor.isClient) {
-    /*Template.hello.greeting = function() {
-        return "My list";
-    };
+/*checks to see if the current user making the request to update is the admin user */
 
-    Template.hello.events({
-        'click input': function() {
-            // template data, if any, is available in 'this'
-            if (typeof console !== 'undefined')
-                console.log("You pressed the button");
-        }
-    });*/
-    Template.categories.lists = function() {
-        return Lists.find({}, {
-            sort: {
-                Category: 1
-            }
+function adminUser(userId) {
+    var adminUser = Meteor.users.findOne({
+        username: "admin"
+    });
+    return (userId && adminUser && userId === adminUser._id);
+}
+Lists.allow({
+    insert: function(userId, doc) {
+        return (adminUser(userId) || (userId && doc.owner === userId));
+    },
+    update: function(userId, docs, fields, modifier) {
+        return adminUser(userId) || _.all(docs, function(doc) {
+            return doc.owner === userId;
         });
-    };
-    // We are declaring the 'adding_category' flag Session.set ('adding_category', false);
-    // This returns true if adding_category has been assigned a value of true
-    Template.categories.new_cat = function() {
-        return Session.equals('adding_category', true);
-    };
-    Template.categories.events({
-        'click #btnNewCat': function(e, t) {
-            Session.set('adding_category', true);
-
-            Meteor.flush();
-            focusText(t.find("#add-category"));
-        },
-        'keyup #add-category': function(e, t) {
-            if (e.which === 13) {
-                var catVal = String(e.target.value || "");
-                if (catVal) {
-                    Lists.insert({
-                        Category: catVal
-                    });
-                    Session.set('adding_category', false);
-                }
-            }
-        },
-        'focusout #add-category': function(e, t) {
-            Session.set('adding_category', false);
-        }
-    });
-    /////Generic Helper Functions/////
-
-    //This function puts our cursor where it needs to be.
-
-    function focusText(i) {
-        i.focus();
-
-        i.select();
+    },
+    remove: function(userId, docs) {
+        return adminUser(userId) || _.all(docs, function(doc) {
+            return doc.owner === userId;
+        });
     }
-}
-
-if (Meteor.isServer) {
-    Meteor.startup(function() {
-        // code to run on server at startup
-    });
-}
+});
