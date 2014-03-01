@@ -3,6 +3,16 @@ MeteorProgress
 
 My progress log for learning Meteor
 
+##2014-03-01
+
+Het boek is ondertussen al even uitgelezen. De applicate bevat nog altijd wat fouten, zelfs de applicatie van de autheur zelf werkt niet. Wel jammer natuurlijk, maar het boek heeft natuurlijk altijd wel wat extra informatie en hulp gegeven. 
+
+Ik was weer aan het surfen naar tutorials en dergelijke, ik heb ook wat rondgekeken op "Made with meteor", daar stonden zelfs heel wat mooie applicaties, maar ik vond dat ik wel eens iets verder wou gaan. 
+
+Rond het begin van het schooljaar had Lars het al eens over een "planner applicatie", een applicatie waar je afspraken, taken, boodschappen, etc. aan kon toevoegen. En ik had wel zin om mij daar eens achter te zetten. Dus bij deze, ik heb het plan een applicatie te bouwen! 
+
+Lars vroeg mij om ook daar een [repo](https://github.com/KennyVandenberghe/PlannerAppProgress) voor bij te houden, ik ga beide repo's up to date houden vanaf nu!
+
 ##2014-02-26
 Verder gelezen en gebouwd tot aan pagina 116 van het boek. Ik had normaal klaar geweest met lezen maar ik krijg de applicatie niet werkende zoals het zou moeten. Voor één of andere reden kunnen users niets toevoegen of zien in de [Library](https://github.com/KennyVandenberghe/MeteorProgress/tree/master/LendLib). Ik heb de code meerdere malen overlopen maar de code is identiek hetzelfde. Ik heb ook allerlei dingen opgezocht en veel mensen hebben dezelfde problemen, het blijkt dat er vanalles veranderd is. Het boek is ook geschreven op de 0.5 versie van Meteor en ondertussen is Meteor al in versie 0.7.1.1 dus dat scheelt al heel wat. Dus volgens mij moeten er gewoon heel wat code aangepast worden en dat ga ik proberen morgen op te lossen. 
 

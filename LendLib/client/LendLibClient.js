@@ -46,6 +46,7 @@
              if (catVal) {
                  Lists.insert({
                      Category: catVal,
+                     items: [],
                      owner: Meteor.userId()
                  });
                  Session.set('adding_category', false);

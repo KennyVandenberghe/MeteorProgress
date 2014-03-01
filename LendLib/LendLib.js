@@ -3,7 +3,7 @@ Lists = new Meteor.Collection("lists");
 
 function adminUser(userId) {
     var adminUser = Meteor.users.findOne({
-        username: "admin"
+        username: "Admin"
     });
     return (userId && adminUser && userId === adminUser._id);
 }
