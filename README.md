@@ -2,6 +2,10 @@ MeteorProgress
 ==============
 
 My progress log for learning Meteor
+##2014-03-02
+[Repo](https://github.com/KennyVandenberghe/PlannerAppProgress) van de planner applicatie geüpdate.
+
+De progress van de applicatie zal uiteraard telkens daar terug te vinden zijn, maar ik zal hier altijd laten weten wanneer er een update is gebeurd. 
 
 ##2014-03-01
 
