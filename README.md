@@ -2,6 +2,16 @@ MeteorProgress
 ==============
 
 My progress log for learning Meteor
+
+##2014-03-06
+Tot nu toe een drukke week gehad maar vandaag heb ik terug tijd gevonden om uiteindelijk verder te kunnen werken.
+
+Ik heb een [tutorial](https://www.youtube.com/watch?v=MbZnf9Fa8UE) gevolgd waar ik een applicatie nabouw die weg heeft van Facebook dus deze heeft nu de naam [Fakebook](https://github.com/KennyVandenberghe/MeteorProgress/tree/master/fakebook). Je kan status updates posten en hierop commenten. 
+
+Hier heb ik ivm bootstrap ook iets nieuws gezien. Je kan op een heel gemakkelijke manier van opmaak wisselen dankzij [bootswatch](http://bootswatch.com/2/)! Dit geeft je app ineens zo'n aantrekkelijke opmaak door gewoon heel simpel de CSS van een bepaalde template van bootswatch in de CSS van je app te plakken!
+
+Ook heb ik mij bezig gehouden met de snippets van sublime text. Ik zag in meerdere tutorials dat de persoon die de tutorial gaf telkens maar 1 woord nodig had om meerdere regels code te laten verschijnen en ik wou dat ook kunnen, dat bespaart namelijk heel veel tijd! Ik heb dan ook een kleine [tutorial](https://www.youtube.com/watch?v=JcAN4D1QV6o) gevolgd om zelf snippets aan te maken. Nu dat ik dat snap maak ik voor heel veel dingen die ik doe telkens een snippet aan. Stom dat ik dat niet eerder deed...
+
 ##2014-03-02
 [Repo](https://github.com/KennyVandenberghe/PlannerAppProgress) van de planner applicatie geüpdate.
 
