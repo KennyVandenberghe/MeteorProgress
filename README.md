@@ -3,6 +3,10 @@ MeteorProgress
 
 My progress log for learning Meteor
 
+##2014-03-09
+
+PlannerApp [repo](https://github.com/KennyVandenberghe/PlannerAppProgress) geüpdate!
+
 ##2014-03-06
 Tot nu toe een drukke week gehad maar vandaag heb ik terug tijd gevonden om uiteindelijk verder te kunnen werken.
 
